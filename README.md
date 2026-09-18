@@ -4,7 +4,7 @@
 ## Problem 1 "The Last Astronaut"
 Dalam sebuah misi luar angkasa, terdapat sejumlah astronot yang harus mengikuti sebuah proses seleksi untuk menentukan siapa yang akan menjadi astronot terakhir yang bertahan. Para astronot berdiri membentuk sebuah lingkaran dan masing-masing memiliki nomor unik mulai dari 1 hingga N. Komandan memiliki sebuah sistem eliminasi dengan sebuah nilai K. Sistem tersebut bekerja secara berulang hingga hanya tersisa satu astronot. Pada awal proses, perhitungan dimulai dari astronot nomor 1. Astronot yang mendapatkan hitungan ke-K akan dielminasi dari lingkaran. Setelah seorang astronot dieliminasi, proses perhitungan berikutnya dimulai dari astronot yang berada tepat setelah posisi astronot tersebut.
 
-**Pseudocode:** []()
+[**Pseudocode**](problem1-pseudocode.txt)
 
 ## Problem 2 "Alien-In-The-Middle"
 Dari sejumlah astronot yang ada pada misi tersebut, seorang astronot menyadari bahwa terdapat alien yang sedang berpura-pura menjadi salah satu dari mereka. Untuk mengatasi masalah ini, mereka membuat cara komunikasi baru yang hanya dapat dipahami oleh manusia asli. Cara komunikasi baru ini menggunakan sebuah sistem sandi rahasia.
