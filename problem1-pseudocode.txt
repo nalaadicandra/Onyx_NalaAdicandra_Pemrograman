@@ -1,0 +1,53 @@
+1.  Start the program.
+
+2.  Ask the user how many astronauts will take part, and store that
+    number in n.
+
+3.  Ask the user for the starting counting interval, and store it in k.
+
+4.  Prepare a counting position called idx and set it to 0, meaning the
+    counting will begin from the first astronaut.
+
+5.  Prepare an empty list called queue to hold the astronauts who are
+    still in the circle, and an empty list called order to record the
+    astronauts as they are eliminated.
+
+6.  Fill the queue with the numbers 1 up to n, so that every astronaut
+    has a number and they stand in a circle in that sequence.
+
+7.  As long as there is still more than one astronaut left in the queue,
+    repeat steps 8 to 12.
+
+8.  Count k astronauts forward starting from the current position,
+    and if the counting passes the end of the list, continue from
+    the beginning again. The position that the counting lands on
+    becomes the new idx.
+
+9.  Take the astronaut standing at position idx, call that astronaut
+    astro, and write astro into the order list because this
+    astronaut is the one being eliminated this round.
+
+10. If the number of astro is an even number, make the counting
+    longer by increasing k by 2.
+
+11. Otherwise, if the number of astro is odd, make the counting
+    shorter by decreasing k by 1, except when decreasing it would
+    make k smaller than 2, in which case set k to 2 so that the
+    counting never becomes too short.
+
+12. Remove astro from the queue. Because everyone behind astro
+    shifts one place forward, the position idx now points to the
+    next astronaut, and the counting for the following round starts
+    from there.
+
+13. Once only one astronaut remains, display the heading
+    "--- OUTPUT ---".
+
+14. Display the label "Order: " and then print every astronaut stored in
+    the order list, one after another, separated by spaces, so the user
+    can see the sequence of elimination.
+
+15. Display the label "Last Survivor: " followed by the only astronaut
+    left in the queue.
+
+16. End the program.
